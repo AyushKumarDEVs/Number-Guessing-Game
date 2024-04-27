@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body style="background-color: black;">
+
+    <div id="body" class="w-screen h-screen bg-black">
+        <div class="text-white h-full w-full flex justify-center items-center flex-col gap-10 px-5">
+
+            <h1 class="font-medium text-3xl from-neutral-500 text-blue-500">Guess The Number</h1>
+            <div id="parent" class="text-white h-auto bg-gray-600 border-2 rounded-lg  w-full  py-5  flex gap-4 flex-col justify-start items-center">
+                <h4 class="text-sm text-center">
+                    <pre>Try and Guess a Random Number
+ Between 1 and 100
+You have 10 attempts 
+to 
+guess the right number
+                </pre>
+                </h4>
+                <input type="number" placeholder="Enter Your Guess" id="guess" class="w-52 h-10 text-black rounded-lg border-2 border-black my-5 px-4">
+                <button id="submit" class="w-32 h-10 bg-slate-900 rounded-lg border-2 border-black ">Submit Guess</button>
+
+                <h4 id="pg" class="font-medium ">Previous Guesses : </h4>
+                <h4 id="gr" class="font-medium">Guess Remaining : 10</h4>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="maiin.js"></script>
+
+
+
+</body>
+
+</html>
