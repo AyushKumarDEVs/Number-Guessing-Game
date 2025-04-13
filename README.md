@@ -19,7 +19,6 @@ The number guessing game is designed to be engaging and humorous, providing sarc
 Explore the Number Guessing Game: [Number Guessing Game](https://ayushkumardevs.github.io/Number-Guessing-Game/)
 
 ## 🤝 Contributing
- GitAds-Verify: C79QNWBUO334ZU2QIK3FR6MN6JY6939O 
 Contributions are welcome! If you have ideas for improvements, please fork the repository and create a pull request with your changes.
 
 ## 📬 Contact
